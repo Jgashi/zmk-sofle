@@ -6,11 +6,11 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-    - name: Jgashi
-      url-base: https://github.com/Jgashi
+    - name: dsifry
+      url-base: https://github.com/dsifry
   projects:
-    - name: animation-anon
-      remote: Jgashi
+    - name: nice-view-mod
+      remote: dsifry
       revision: main 
     - name: zmk
       remote: zmkfirmware
